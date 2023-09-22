@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.image {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.dis {
+    position: absolute;
+    top: 8.7%;
+    left: 34%;
+    font-size: 56px;
+    margin: 20px 0;
+}
+
+.des {
+    position: absolute;
+    top: 40%;
+    left: 65%;
+    font-size: 24px;
+}
+
+form {
+    position: absolute;
+    top:26%;
+    left: 25%;
+}
+
+.from, .to {
+    display: block;
+    width: 90%;
+    background-color: transparent;
+    padding: 20px;
+    margin-bottom: 5px;
+    border: 1px solid black;
+    color: black;
+    border-radius: 10px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.submit {
+    display: block;
+    width: 105%;
+    left: 40%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.submit:hover {
+    background-color: #0056b3;
+}
